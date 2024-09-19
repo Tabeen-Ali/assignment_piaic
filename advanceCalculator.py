@@ -1,7 +1,7 @@
 '''
 Student Name: Iqra Tahir
 Roll No: PIAIC234522
-Assignment: Basic Calculator Operations in Python using functions
+Assignment: Calculator using functions
 '''
 def calculator():
     x  = float(input("Please enter the first number:  "))
