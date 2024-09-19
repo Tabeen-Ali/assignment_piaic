@@ -7,13 +7,13 @@ def calculator():
     x  = float(input("Please enter the first number:  "))
     y  = float(input("Please enter the second number:  "))
     z = input("Please enter the arithmetic operation you want to perform ('+','-','*','/'):  ")
-    def addition(x,y):
+    def addition(x,y): #function for addition
         return x+y
-    def subtraction(x,y):
+    def subtraction(x,y): #function for subtraction
         return x-y
-    def multiplication(x,y):
+    def multiplication(x,y): #function for multiplication
         return x*y
-    def division(x,y):
+    def division(x,y): #function for division
         return x/y
     if z == '+':
         result = addition(x, y)
